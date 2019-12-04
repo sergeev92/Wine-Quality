@@ -45,7 +45,7 @@ However, this file can be used with arbitrary data as well. There were some proc
 ## Summary
 Assuming this problem will continue, the following things can be made:
   - Check with experts whether extreme quality values, that are not presented in input data, exist at all, i.e. 1, 2 and 10
-  - Check with experts how to correctly split quality values by quality types
+  - Check with experts how to correctly split quality values by quality types and whether it makes sense at all
   - Check with experts importance of each feature and relathionships between them
   - Try to consider more hyperparameters near the area of best parameters that was chosen during current development process
   - Try to use RandomizedSearchCV instead of GridSearchCV
