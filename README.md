@@ -36,13 +36,16 @@ First of all it is necessary to run Jupyter Notebook server and open WineQuality
 
 It should be noted that there are two calibrated models - quality and quality type model. Quality model predicts quality in the format of integer numbers, whereas quality type model use groups of integer numbers to arrive at the format of "low quality", "medium quality" and "high quality". However, these quality types are also presented as integers where 1 corresponds to "low quality" and 3 - to "high quality". 
 
-It should be also mentioned that input data contains few (or no) observations for extremely quality values, like 1, 2, 3 and 9. So, for such cases calibrated models may give worse results.
+It should be also mentioned that input data contains few (or no) observations for extremely quality values, like 1, 2, 3 and 9. So, for such cases calibrated models may give worse results. 
 
-After reviewing main file (or in case of ignoring it), it is recommended to open CalibratedModels.ipynb and try to use calibrated model. Currently, the code is written in such a way that it simply takes the same testing data, that was used during model development and apply the model for prediction. Thus, the results will be exactly the same as in the main file. 
+After reviewing main file (or in case of ignoring it), it is recommended to open CalibratedModels.ipynb and try to use calibrated model. Currently, the code is written in such a way that it simply takes the same testing data (standardized and reduced), that was used during model development and apply the model for prediction. Thus, the results will be exactly the same as in the main file. 
 
-However, this file can be used with arbitrary data as well. In this case, data should be save in .csv format like original input data. Then, before applying the model, the data should be standardized and reduced (file CalibratedModels.ipynb contains more detailed comments).
-
-
-
+However, this file can be used with arbitrary data as well. There were some processes of data standartization and feature selection  so the models are calibrated on standardized data and restricted set of features, in particular density and free sulfur dioxide are removed. So, in case of arbitrary data, it should be saved in .csv format like original input data. Then, before applying the model, the data should be standardized and reduced (file CalibratedModels.ipynb contains more detailed comments).
 
 ## Summary
+Assuming this task, i.e. wine quality predictions, will continue, the following things can be made:
+  - Check with experts whether extremely quality values, that are not presented in input data, exist at all, i.e. 1, 2 and 10
+  - Check with experts how to correctly split quality values by quality types
+  - Try to consider more hyperparameters near the area of best parameters that was chosen during current development process
+  - Try to use RandomizedSearchCV instead of GridSearchCV
+  - Try to use different (less obvious) combinations of independent variables or to reduce number of features
