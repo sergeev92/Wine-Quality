@@ -3,7 +3,7 @@ The structure of the readme is as follows:
   - Introduction - contains some brief overview of work done and repository structure description
   - Prerequisites - lists soft, that needs to be installed in order to be able to run the code
   - Instructions - contains details related to launching and using the code as well some notes regarding current development process
-  - Summary - contains some additional thoughts that were not directly reflected in the code
+  - Summary - contains some additional thoughts that were not taken place during current development process
   
 ## Introduction
 This repository was created for sharing the results of the test task associated with ML engineer job position. The main goal was to develop the model which predicts wine quality. This goal was achieved by performing exploratory data analysis, applying data standardization algorithm and feature selection approaches, calibrating and comparing different models with their hyperparameters using grid search and multiple accuracy metrics. 
