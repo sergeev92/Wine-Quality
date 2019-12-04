@@ -6,7 +6,7 @@ The structure of the readme is as follows:
   - Summary - contains some additional thoughts that were not taken place during current development process
   
 ## Introduction
-This repository was created for sharing the results of the test task associated with ML engineer job position. The main goal was to develop the model which predicts wine quality. This goal was achieved by performing exploratory data analysis, applying data standardization algorithm and feature selection approaches, calibrating and comparing different models with their hyperparameters using grid search and multiple accuracy metrics. 
+This repository was created for sharing the results of the test task associated with ML engineer job position. The main goal was to develop the model which predicts wine quality. This goal was achieved by performing exploratory data analysis, applying data standardization algorithm and feature selection approaches, calibrating and comparing different models with their hyperparameters using grid search and multiple accuracy metrics. Eventually, final model is based on random forest classification algorithm.
 
 The structure of the repository is as follows:
   - Input Data folder - contains original input data
