@@ -30,7 +30,7 @@ In order to be able to run the code, it is necessary to have the following items
 It is recommended to perform installation using Anaconda.
 
 ## Instructions
-It is recommended to start with looking at WineQuality.ipynb with model developing process and then move to CalibratedModels.ipynb to use calibrated models.
+It is recommended to start with looking at WineQuality.ipynb file with model developing process and then move to CalibratedModels.ipynb to use calibrated models.
 
 First of all it is necessary to run Jupyter Notebook server and open WineQuality.ipynb. As was mentioned above, this file contains all steps of model development process as well as some comments related to the obtained results. In addition, after final model is choosen, this file save all required information to the separate files stored in Test Data and Calibrated Models folders. Given that these files are already presented in the repository, it is not necessary to re-run the whole file but it is possible only to review it.
 
