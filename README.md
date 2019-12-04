@@ -1,12 +1,12 @@
 # Wine Quality
 The structure of the readme is as follows:
-  - Introduction - contains some brief overview of work done
+  - Introduction - contains some brief overview of work done and repository structure description
   - Prerequisites - soft, that needs to be installed in order to be able to run the code
   - Instructions - contains details related to launching and using the code as well some notes regarding current development process
   - Summary - contains some additional thoughts that were not directly reflected in the code
   
 ## Introduction
-This repository was created for sharing the results of the test task associated with ML engineer job position.
+This repository was created for sharing the results of the test task associated with ML engineer job position. The main goal was to develop the model which predicts wine quality. This goal was achieved by performing exploratory data analysis, applying data standardization algorithm and feature selection approaches, calibrating and comparing different models with their hyperparameters using grid search and multiple accuracy metrics. 
 
 The structure of the repository is as follows:
   - Input Data folder - contains original input data
@@ -40,7 +40,7 @@ It should be also mentioned that input data contains few (or no) observations fo
 
 After reviewing main file (or in case of ignoring it), it is recommended to open CalibratedModels.ipynb and try to use calibrated model. Currently, the code is written in such a way that it simply takes the same testing data (standardized and reduced), that was used during model development and apply the model for prediction. Thus, the results will be exactly the same as in the main file. 
 
-However, this file can be used with arbitrary data as well. There were some processes of data standartization and feature selection  so the models are calibrated on standardized data and restricted set of features, in particular density and free sulfur dioxide are removed. So, in case of arbitrary data, it should be saved in .csv format like original input data. Then, before applying the model, the data should be standardized and reduced (file CalibratedModels.ipynb contains more detailed comments).
+However, this file can be used with arbitrary data as well. There were some processes of data standardization and feature selection  so the models are calibrated on standardized data and restricted set of features, in particular density and free sulfur dioxide are removed. So, in case of arbitrary data, it should be saved in .csv format like original input data. Then, before applying the model, the data should be standardized and reduced (file CalibratedModels.ipynb contains more detailed comments).
 
 ## Summary
 Assuming this task, i.e. wine quality predictions, will continue, the following things can be made:
