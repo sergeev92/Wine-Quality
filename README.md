@@ -32,11 +32,11 @@ It is recommended to perform installation using Anaconda.
 ## Instructions
 It is recommended to start with looking at WineQuality.ipynb file with model developing process and then move to CalibratedModels.ipynb to use calibrated models.
 
-First of all it is necessary to run Jupyter Notebook server and open WineQuality.ipynb. As was mentioned above, this file contains all steps of model development process as well as some comments related to the obtained results. In addition, after final model is chosen, this file saves all required information to the separate files stored in Test Data and Calibrated Models folders. Given that these files are already presented in the repository, it is not necessary to re-run the whole file but it is possible only to review it.
+First of all it is necessary to run Jupyter Notebook server and open WineQuality.ipynb. As was mentioned above, this file contains all steps of model development process as well as some comments related to the obtained results. In addition, after final model is chosen, this file saves all required information to the separate files stored in Test Data and Calibrated Models folders. Given that these files are already presented in the repository, it is not necessary to re-run the whole file but it is possible only to review.
 
 It should be noted that there are two calibrated models - quality and quality type model. Quality model predicts quality in the format of integer numbers, whereas quality type model use groups of integer numbers to arrive at the format of "low quality", "medium quality" and "high quality". However, these quality types are also presented as integers where 1 corresponds to "low quality" and 3 - to "high quality". 
 
-It should be also mentioned that input data contains few (or no) observations for extremely quality values, like 1, 2, 3 and 9. So, for such cases calibrated models may give worse results. 
+It should be also mentioned that input data contains few (or no) observations for extremely quality values, like 1, 2, 3 and 9. So, for such cases calibrated models, most probablty, will give worse results. 
 
 After reviewing main file (or in case of ignoring it), it is recommended to open CalibratedModels.ipynb and try to use calibrated model. Currently, the code is written in such a way that it simply takes the same testing data (standardized and reduced), that was used during model development and apply the model for prediction. Thus, the results will be exactly the same as in the main file. 
 
