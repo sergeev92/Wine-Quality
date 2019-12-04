@@ -34,7 +34,7 @@ It is recommended to start with looking at WineQuality.ipynb file with model dev
 
 First of all it is necessary to run Jupyter Notebook server and open WineQuality.ipynb. As was mentioned above, this file contains all steps of model development process as well as some comments related to the obtained results. In addition, after final model is chosen, this file saves all required information to the separate files stored in Test Data and Calibrated Models folders. Given that these files are already presented in the repository, it is not necessary to re-run the whole file but it is possible only to review.
 
-It should be noted that there are two calibrated models - quality and quality type model. Quality model predicts quality in the format of integer numbers, whereas quality type model use groups of integer numbers to arrive at the format of "low quality", "medium quality" and "high quality". However, these quality types are also presented as integers where 1 corresponds to "low quality" and 3 - to "high quality". 
+It should be noted that there are two calibrated models - quality and quality type model. Quality model predicts quality in the format of integer numbers, whereas quality type model uses groups of integer numbers to arrive at the format of "low quality", "medium quality" and "high quality". However, these quality types are also presented as integers where 1 corresponds to "low quality" and 3 - to "high quality". 
 
 It should be also mentioned that input data contains few (or no) observations for extremely quality values, like 1, 2, 3 and 9. So, for such cases calibrated models, most probablty, will give worse results. 
 
