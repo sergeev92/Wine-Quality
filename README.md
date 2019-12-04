@@ -30,5 +30,6 @@ In order to be able to run the code, it is necessary to have the following items
 It is recommended to perform installation using Anaconda.
 
 ## Instructions
+It is recommended to start with looking at WineQuality.ipynb with model developing process and then move to CalibratedModels.ipynb to use calibrated models.
 
 ## Summary
