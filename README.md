@@ -14,7 +14,7 @@ The structure of the repository is as follows:
   - Test Data folder - contains standardized and reduced original data that was used for testing during model deveping
     - testData_qualityModel.csv - file with testing data for quality model
     - testData_qualityTypeModel.csv - file with testing data for quality type model
-  - Calibrated Models - contains files with calibrated models that can be used separate as imported module
+  - Calibrated Models - contains files with calibrated models that can be used separately as imported module
     - qualityModel.sav - file with calibrated quality model
     - qualityTypeModel.sav - file with calibrated quality type model
     - scaler.sav - file with calibrated scaler
