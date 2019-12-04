@@ -2,7 +2,7 @@
 The structure of the readme is as follows:
   - Introduction - contains some brief overview of work done
   - Prerequisites - soft, that needs to be installed in order to be able to run the code
-  - Instructions - contains details related to launching and using the code
+  - Instructions - contains details related to launching and using the code as well some notes regarding current development process
   - Summary - contains some additional thoughts that were not directly reflected in the code
   
 ## Introduction
