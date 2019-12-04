@@ -1,4 +1,4 @@
-# Wine-Quality
+# Wine Quality
 The structure of the readme is as follows:
   - Introduction - contains some brief overview of work done
   - Prerequisites - soft, that needs to be installed in order to be able to run the code
